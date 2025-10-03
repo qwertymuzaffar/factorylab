@@ -14,6 +14,10 @@ public class CoffeeFactory {
                 System.out.println("🏭 Creating Latte");
                 yield new Latte();
             }
+            case "cappuccino" -> {
+                System.out.println("🏭 Creating Cappuccino");
+                yield new Cappuccino();
+            }
             default -> {
                 System.out.println("❌ Unknown coffee type: " + type);
                 yield null;

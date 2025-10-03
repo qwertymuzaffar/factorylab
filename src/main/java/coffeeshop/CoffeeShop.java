@@ -9,6 +9,7 @@ public class CoffeeShop {
         // Order different coffees using factory
         orderCoffee("espresso");
         orderCoffee("latte");
+        orderCoffee("cappuccino");
         orderCoffee("mocha"); // This will fail - not supported
 
         System.out.println("\n✅ Factory Pattern Demo Complete!");
